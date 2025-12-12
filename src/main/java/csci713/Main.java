@@ -1,4 +1,4 @@
-
+package csci713;
 public class Main {
     public static void main(String[] args) {
         StudentService service = new StudentService();
@@ -16,6 +16,7 @@ public class Main {
 
         // Code smell: Repeated calls, magic numbers
         System.out.println("Average GPA: " + service.calculateAverageGpa());
+        service.removeStudentByName("Bob");
 
         // Dead code / unused
         int x = 42;

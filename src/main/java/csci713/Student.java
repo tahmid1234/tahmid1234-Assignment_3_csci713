@@ -1,4 +1,4 @@
-
+package csci713;
 public class Student {
     public String name;  // Should be private
     public int age;
